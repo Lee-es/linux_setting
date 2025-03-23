@@ -3,9 +3,9 @@
 
 
 ## 설치
-	•	zsh 설치
+### zsh 설치
 sudo apt install zsh -y 
-	•	쉘 변경 
+### 쉘 변경 
 sudo chsh -s /bin/zsh
  또는
 chsh -s $(which zsh)
@@ -30,5 +30,5 @@ echo "source ${(q-)PWD}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> 
 vi ~/.zshrc
 plugins=(git ... zsh-autosuggestions)
 
-	•	vi ~/.zshrc 수정
+### vi ~/.zshrc 수정
 https://github.com/wonhyukc/shell_linux/blob/main/.zshrc  를 참조
