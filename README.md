@@ -6,12 +6,9 @@
 ### zsh 설치
 sudo apt install zsh -y 
 ### 쉘 변경 
-sudo chsh -s /bin/zsh
- 또는
-chsh -s $(which zsh)
-또는
-sudo vim /etc/passwd 
-에서 해당 하는 사용자: bash 혹은 csh을 zsh로 변경
+sudo chsh -s /bin/zsh 또는
+chsh -s $(which zsh) 또는
+sudo vim /etc/passwd 에서 해당 하는 사용자: bash 혹은 csh을 zsh로 변경
 oh my zsh 설치:  (다음 줄 전체가 한 명령. 줄바꿈없이 실행)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
